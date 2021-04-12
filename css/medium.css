@@ -1,0 +1,175 @@
+.nav-mobile {
+  display: none;
+}
+
+.nav-desktop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  width: 100%;
+  max-width: 210rem;
+  max-height: 10rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 10;
+}
+
+.nav-desktop img {
+  justify-self: flex-start;
+  padding: 1rem;
+  width: 22%;
+  margin-left: 2%;
+}
+
+.nav-desktop li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style: none;
+}
+
+.nav-desktop a {
+  padding: 2rem 2.5rem;
+  font-size: 1.7rem;
+  color: white;
+  text-decoration: none;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+
+.nav-desktop li a:hover {
+  color: #0B94E4;
+}
+
+.text-container h1 {
+  font-size: 8rem;
+}
+
+.text-container p {
+  font-size: 4rem;
+}
+
+.text-container button {
+  margin-top: 1rem;
+  width: 25rem;
+  height: 8rem;
+  font-size: 2.5rem;
+}
+
+.bg-aboutus {
+  height: 100%;
+}
+
+.text-aboutus {
+  padding: 11% 8%;
+}
+
+.text-aboutus h1 {
+  font-size: 6rem;
+}
+
+.text-aboutus .underline {
+  margin-top: 4%;
+}
+
+.text-aboutus p {
+  padding: 10% 0;
+  font-size: 2rem;
+}
+
+.text-aboutus button {
+  margin-top: 12%;
+  width: 28rem;
+  height: 8rem;
+  font-size: 2.5rem;
+}
+
+.text-aboutus .photo-aboutus {
+  width: 60%;
+}
+
+.text-lastminute h1 {
+  font-size: 6rem;
+}
+
+.text-lastminute p {
+  font-size: 2rem;
+}
+
+.btn-contact {
+  margin-top: 6%;
+  width: 28rem;
+  height: 8rem;
+  font-size: 2.5rem;
+}
+
+.h2-offer {
+  margin-top: 15%;
+  font-size: 6rem;
+}
+
+.underline-offer {
+  margin-top: 15rem;
+}
+
+.p-offer {
+  padding: 20rem 0;
+  font-size: 2rem;
+}
+
+.price {
+  top: 33rem;
+  font-size: 6rem;
+}
+
+.buy {
+  width: 23rem;
+  height: 8rem;
+  font-size: 2.5rem;
+}
+
+.box-general {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50vw;
+}
+
+#contact {
+  height: 90rem;
+}
+
+.text-contact h1 {
+  padding: 8rem 0 0 0;
+  font-size: 6rem;
+}
+
+.text-contact .underline {
+  margin: 6% auto;
+}
+
+.text-contact p {
+  padding: 2% 0% 8% 0%;
+  font-size: 2rem;
+}
+
+.info-contact p {
+  padding: 5% 0;
+}
+/*# sourceMappingURL=medium.css.map */

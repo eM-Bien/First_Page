@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,WAAW,CAAC;EACR,MAAM,EAAE,KAAK;CAAG",
+    "sources": [
+        "x-small.sass"
+    ],
+    "names": [],
+    "file": "x-small.css"
+}

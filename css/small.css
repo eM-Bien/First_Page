@@ -1,0 +1,119 @@
+.img-header-mobile {
+  display: none;
+}
+
+.img-header-small {
+  display: block;
+  width: 100%;
+}
+
+.text-container {
+  padding: 15% 0 0 8%;
+}
+
+.text-container h1 {
+  font-size: 5rem;
+}
+
+.text-container p {
+  font-size: 3rem;
+}
+
+.text-container button {
+  width: 20rem;
+  height: 6.5rem;
+  font-size: 2rem;
+}
+
+.text-aboutus h1 {
+  font-size: 4rem;
+}
+
+.text-aboutus .underline {
+  margin-top: 5%;
+}
+
+.text-aboutus p {
+  padding: 13% 0;
+}
+
+.text-aboutus button {
+  margin-top: 12%;
+  width: 23rem;
+  height: 6.5rem;
+  font-size: 2rem;
+}
+
+.text-aboutus .photo-aboutus {
+  width: 60%;
+}
+
+.bg-lastminute {
+  margin-top: -5rem;
+}
+
+.text-lastminute {
+  padding: 0% 8%;
+}
+
+.text-lastminute h1 {
+  font-size: 4rem;
+}
+
+.text-lastminute .underline {
+  margin: 6% auto;
+}
+
+.text-lastminute p {
+  padding: 4% 0;
+}
+
+.btn-contact {
+  margin-top: 8%;
+  margin-bottom: 0;
+  width: 23rem;
+  height: 6.5rem;
+  font-size: 2rem;
+}
+
+.h2-offer {
+  font-size: 4rem;
+}
+
+.underline-offer {
+  margin-top: 13rem;
+}
+
+.price {
+  top: 23rem;
+  font-size: 5rem;
+}
+
+.buy {
+  width: 18rem;
+  height: 6.5rem;
+  font-size: 2rem;
+}
+
+.text-contact h1 {
+  padding: 6rem 0 0 0;
+  font-size: 4rem;
+}
+
+.text-contact .underline {
+  margin: 8%;
+  width: 30%;
+}
+
+.text-contact p {
+  padding: 0% 0% 10% 0%;
+}
+
+.info-contact p {
+  padding: 5% 0;
+}
+
+.text-footer {
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=small.css.map */

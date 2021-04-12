@@ -1,0 +1,250 @@
+.nav-desktop img {
+  width: 18%;
+}
+
+.nav-desktop a {
+  font-size: 2rem;
+}
+
+.nav-desktop li {
+  padding: 0 3rem 0 0;
+}
+
+.img-header-small {
+  display: none;
+}
+
+.img-header-desktop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100rem;
+  background-image: url("../img/hero-img-2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+
+.bg-bottom {
+  position: absolute;
+  margin-top: -22.9rem;
+  width: 100%;
+  max-width: 210rem;
+  height: 23rem;
+  background-image: url("../img/bg-bottom.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-container {
+  padding: 20% 0 0 8rem;
+}
+
+.text-container h1 {
+  font-size: 11rem;
+}
+
+.text-container p {
+  font-size: 3.5rem;
+}
+
+.text-container button {
+  margin-top: 1rem;
+  width: 25rem;
+  height: 8rem;
+  font-size: 2.5rem;
+}
+
+.bg-aboutus {
+  height: 100%;
+  background-image: linear-gradient(167deg, black, black, black, black, #271e4f, #1e173c, #481e4f, #4f1e31, #481e4f, #271e4f, #271e4f, #1e173c, black, black, black, #271e4f, #271e4f);
+  background-size: 800%;
+}
+
+.text-aboutus {
+  padding: 18% 8%;
+}
+
+.text-aboutus h1 {
+  font-size: 7rem;
+}
+
+.text-aboutus .underline {
+  margin-top: 6%;
+}
+
+.text-aboutus p {
+  margin-right: 0;
+  margin-left: auto;
+  padding: 14% 0;
+  width: 50%;
+}
+
+.text-aboutus button {
+  margin-top: -30%;
+}
+
+.text-aboutus .photo-aboutus {
+  margin-top: -35%;
+  margin-left: 0;
+  width: 50%;
+}
+
+.text-lastminute h1 {
+  font-size: 7rem;
+}
+
+.btn-contact {
+  margin-top: 2%;
+}
+
+.underline-offer {
+  margin-top: 35%;
+}
+
+.p-offer {
+  padding: 45% 0;
+}
+
+.price {
+  top: 55%;
+  font-size: 700%;
+}
+
+.offers-general {
+  margin-top: 5%;
+}
+
+.offers-general .box-general {
+  width: 40vw;
+  margin-right: 2%;
+}
+
+.offers-general .offer-1 {
+  background-image: url("../img/offer-1.jpg");
+  -webkit-transition: rotate, .5s;
+  transition: rotate, .5s;
+}
+
+.offers-general .offer-1 .offer-1-active {
+  display: block;
+  border-radius: 4rem;
+  background-color: #0B94E4;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  z-index: -2;
+}
+
+.offers-general .offer-2 {
+  background-image: url("../img/offer-2.jpg");
+  -webkit-transition: rotate, .5s;
+  transition: rotate, .5s;
+}
+
+.offers-general .offer-2 .offer-2-active {
+  display: block;
+  border-radius: 4rem;
+  background-color: #0B94E4;
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+  z-index: -2;
+}
+
+.offers-general .offer-3 {
+  background-image: url("../img/offer-3.jpg");
+  -webkit-transition: rotate, .5s;
+  transition: rotate, .5s;
+}
+
+.offers-general .offer-3 .offer-3-active {
+  display: block;
+  border-radius: 4rem;
+  background-color: #0B94E4;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  z-index: -2;
+}
+
+.offers-general .offer-4 {
+  background-image: url("../img/offer-4.jpg");
+  -webkit-transition: rotate, .5s;
+  transition: rotate, .5s;
+}
+
+.offers-general .offer-4 .offer-4-active {
+  display: block;
+  border-radius: 4rem;
+  background-color: #0B94E4;
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+  z-index: -2;
+}
+
+.offer-1:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.offer-2:hover {
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}
+
+.offer-3:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.offer-4:hover {
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}
+
+#contact {
+  height: 50rem;
+}
+
+.text-contact h1 {
+  padding: 6rem 0 0 0;
+  font-size: 7rem;
+}
+
+.text-contact .underline {
+  margin: 3% auto;
+  width: 20%;
+}
+
+.text-contact p {
+  padding: 2% 0% 8% 0%;
+}
+
+.info-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+}
+
+.info-contact p {
+  padding: 0;
+  font-size: 1.5rem;
+}
+
+.info-contact .fa-mobile-alt {
+  margin-right: -3rem;
+  z-index: 2;
+}
+
+.text-footer {
+  font-size: 1.6rem;
+}
+/*# sourceMappingURL=large.css.map */

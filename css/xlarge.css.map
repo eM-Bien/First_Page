@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,EAAE,CAAC;EACC,KAAK,EAAE,IAAI;CAAG",
+    "sources": [
+        "xlarge.sass"
+    ],
+    "names": [],
+    "file": "xlarge.css"
+}

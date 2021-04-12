@@ -1,0 +1,374 @@
+$primary-color: #0B94E4
+
+*, *::after, *::before
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+html
+    font-size: 10px
+    scroll-behavior: smooth
+
+h1, h2
+    text-transform: uppercase
+
+button
+    color: white
+    background-color: $primary-color
+    border-radius: 40px
+    border: none
+    box-shadow: 0px 10px 10px #00000048
+    text-transform: uppercase
+    cursor: pointer
+    transition: scale, color, background, .3s
+
+button:hover
+    background-color: white
+    color: $primary-color
+    transform: scale(1.1)
+
+button:focus
+    outline: none
+
+// GENERAL LAST MINUTE -->
+
+.h2-offer
+    position: absolute
+    margin-top: 5rem
+    margin-left: 50%
+    transform: translate(-50%)
+    font-size: 3rem
+    text-align: center
+    letter-spacing: .5rem
+
+.p-offer
+    margin: 0 3rem
+    padding: 15rem 0
+    font-size: 1.5rem
+
+.price
+    position: absolute
+    top: 28rem
+    margin-left: 50%
+    width: 100%
+    font-size: 4rem
+    font-weight: bold
+    text-transform: uppercase
+    transform: translate(-50%)
+
+.underline-offer
+    position: absolute
+    margin-top: 12rem
+    margin-left: 50%
+    transform: translate(-50%)
+    height: 0.2rem
+    width: 13rem
+    background-color: #fff
+
+.buy
+    margin-bottom: 3rem
+    height: 5rem
+    width: 15rem
+    font-size: 1.8rem
+    color: $primary-color
+    font-size: 2rem
+    background-color: white
+    border-radius: 4rem
+    border: none
+    box-shadow: 0px 1rem 1rem #00000048
+    text-transform: uppercase
+    cursor: pointer
+
+//
+
+body
+    display: flex
+    flex-direction: column
+    margin: 0 auto
+    max-width: 2100px
+    font-family: 'Montserrat', sans-serif;
+    color: white
+    background-color: #333
+
+// NAVIGATION
+
+nav
+    display: flex
+    height: 10%
+    background-color: #202020f1
+
+.nav-mobile
+    justify-content: flex-end
+    align-items: center
+    padding: 10px
+    font-size: 30px
+
+    .fas
+        padding: 10px
+        
+    .hide
+        display: none
+
+    .nav-mobile-list 
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        position: absolute
+        top: 0
+        left: -300px
+        height: 100vh
+        width: 300px
+        background-color: black
+        z-index: 2
+        transition: transform .3s
+
+    .nav-mobile-list li
+        display: block
+        list-style-image: none
+        text-align: left
+
+    .nav-mobile-list li a
+        padding: 30px
+        font-size: 18px
+        color: white
+        line-height: 88px
+        letter-spacing: .3rem
+        text-transform: uppercase
+        text-decoration: none
+        transition: color .3s
+
+    .nav-mobile-list li a:hover
+        color: $primary-color    
+
+    .active
+        transform: translateX(300px)
+
+.nav-desktop
+    display: none
+
+// HEADER
+
+.baloon-1
+    position: absolute
+    display: none
+
+.baloon-2
+    position: absolute
+    display: none
+
+.img-header-desktop
+    display: none
+    
+.img-header-small
+    display: none
+
+.img-header-mobile
+    display: block
+    width: 100%
+
+.text-container
+    position: absolute
+    padding: 35% 0 0 8%
+
+    h1
+        font-size: 3.7rem
+    p
+        padding: 4rem 0
+        width: 80%
+        font-size: 2.2rem
+        font-weight: 600
+    
+    button
+        height: 5rem
+        width: 18rem
+        font-size: 1.8rem
+
+// ABOUT US 
+
+#aboutus
+    display: flex
+    position: relative
+    
+.bg-aboutus
+    position: absolute
+    height: 100%
+    width: 100%
+    background: linear-gradient(167deg, rgba(0,0,0,1) 0%, rgba(39,30,79,1) 100%)
+    z-index: -1
+
+.text-aboutus
+    padding: 15% 8%
+    text-align: right
+
+    h1
+        display: block
+        font-size: 3rem
+
+    .hide
+        display: none
+
+    .underline
+        margin-top: 8%
+        height: 0.2rem
+        width: 38%
+        float: right
+        background-color: $primary-color
+    p
+        padding: 18% 0
+        font-size: 1.5rem
+
+    .photo-aboutus
+        display: block
+        margin-left: auto
+        margin-right: auto
+        width: 100%
+
+    button
+        margin-top: 20%
+        height: 5rem
+        width: 20rem
+        font-size: 1.8rem
+
+// LAST MINUTE
+
+#lastminute
+    position: relative
+    text-align: center
+
+.bg-lastminute
+    position: absolute
+    width: 100%
+    height: 110%
+    background-color: white
+    z-index: -1
+
+.text-lastminute
+    padding: 10% 8%
+
+    h1
+        display: block
+        font-size: 3rem
+        color: #333
+
+    .hide
+        display: none
+
+    .underline
+        margin: 10% auto
+        height: 0.2rem
+        width: 38%
+        background-color: $primary-color
+
+    p
+        padding: 10% 
+        font-size: 1.5rem
+        color: #333
+
+.btn-contact
+    margin-bottom: 5%
+    height: 5rem
+    width: 20rem
+    font-size: 1.8rem
+
+.offers-general
+    display: flex
+    flex-flow: row wrap
+    justify-content: center
+    margin: 10% 5%
+    padding: 3%
+  
+    .box-general
+        position: relative
+        border-radius: 4rem
+        margin-bottom: 3rem
+        background-repeat: no-repeat
+        background-size: cover
+
+    .offer-1
+        background-image: url('../img/offer-1.jpg')
+
+        .offer-1-active
+            display: block
+            border-radius: 4rem
+            background-color: rgba(0, 0, 0, 0.4)
+
+    .offer-2
+        background-image: url('../img/offer-2.jpg')
+
+        .offer-2-active
+            display: block
+            border-radius: 4rem
+            background-color: rgba(0, 0, 0, 0.4)
+
+    .offer-3
+        background-image: url('../img/offer-3.jpg')
+
+        .offer-3-active
+            display: block
+            border-radius: 4rem
+            background-color: rgba(0, 0, 0, 0.4)
+
+    .offer-4
+        background-image: url('../img/offer-4.jpg')
+
+        .offer-4-active
+            display: block
+            border-radius: 4rem
+            background-color: rgba(0, 0, 0, 0.4)
+ 
+// CONTACT
+
+#contact
+    position: relative
+    text-align: center
+    height: 80rem
+    background-color: $primary-color
+
+.text-contact
+    h1
+        display: block
+        padding: 5rem 0 0 0
+        font-size: 3rem
+
+    .hide
+        display: none
+
+    .underline
+        margin: 10% auto
+        height: 0.2rem
+        width: 38%
+        background-color: white
+
+    p
+        padding: 5% 0% 18% 0%
+        margin: 0 auto
+        width: 80%
+        font-size: 1.5rem
+
+.info-contact
+    p
+        padding: 8% 0
+    .fas
+        font-size: 4rem
+        transition: scale, .3s
+
+.fas:hover
+    transform: scale(1.2)
+                        
+// FOOTER
+
+.text-footer
+    padding: 2rem
+    text-align: center
+    background-color: black
+            
+
+
+
+
+
+
+
+
+

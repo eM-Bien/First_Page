@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First ❤ Page</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" media='screen and (min-width: 400px)' href="css/x-small.css">
+    <link rel="stylesheet" media='screen and (min-width: 500px)' href="css/small.css">
+    <link rel="stylesheet" media='screen and (min-width: 768px)' href="css/medium.css">
+    <link rel="stylesheet" media='screen and (min-width: 992px)' href="css/large.css">
+    <link rel="stylesheet" media='screen and (min-width: 1600px)' href="css/x-large.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/23b727f5a2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav-desktop">
+            <img src="./img/logo.svg" alt="logo firmy">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aboutus">O nas</a></li>
+                <li><a href="#lastminute">Last Minute</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+
+        <nav class="nav-mobile">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times hide"></i></i>
+
+            <div class="nav-mobile-list">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutus">O nas</a></li>
+                    <li><a href="#lastminute">Last Minute</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div id="home" class="text-container animate__animated animate__bounceInUp">
+            <h1>advendure</h1>
+            <p>Zaplanuj z nami niesamowitą przygodę</p>
+            <a href="#aboutus"><button>poznaj nas</button></a>
+        </div>
+
+        <div class="bg-header">
+            <div class="baloon-1"></div>
+            <div class="baloon-2"></div>
+            <div class="img-header-desktop"></div>
+            <img src="./img/hero-img-mobile.jpg" alt="krajobraz z latającymi balonami" class="img-header-mobile">
+            <img src="./img/hero-img-small.jpg" alt="krajobraz z latającymi balonami" class="img-header-small">
+            <div class="bg-bottom"></div>
+        </div>
+    </header>
+
+    <main>
+        <div id="aboutus">
+            <div class="text-aboutus">
+                <h1 class="txt-about-h1 hide animate__animated">kim jesteśmy?</h1>
+                <div class="underline"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam sed magnam rem qui expedita incidunt optio tempore, quae necessitatibus pariatur alias illo cupiditate, excepturi et?</p>
+                <img src="../img/img-aboutus.png" alt="zdjęcie pracowników firmy" class="photo-aboutus">
+                <a href="#lastminute"><button>poznaj ofertę</button></a>
+            </div>
+            
+            <div class="bg-aboutus"></div>
+        </div>
+
+
+        <div id="lastminute">
+            <div class="bg-lastminute"></div>
+            <div class="text-lastminute">
+                <h1 class="txt-last-h1 hide animate__animated">oferty last minute</h1>
+                <div class="underline"></div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias deserunt laborum commodi unde sequi?</p>
+            </div>
+            <a href="#contact"><button class="btn-contact">napisz do nas</button></a>
+            
+            <div class="offers-general">
+                <div class="box-general offer-1">
+                    <div class="offer-1-active active hide">
+                        <h2 class="h2-offer">paryż</h2>
+                        <div class="underline-offer"></div>
+                        <p class="p-offer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quia!</p>
+                        <p class="price">1200 pln</p>
+                        <button class="buy">zamów</button>
+                    </div>
+                </div>
+                <div class="box-general offer-2">
+                    <div class="offer-2-active">
+                        <h2 class="h2-offer">rzym</h2>
+                        <div class="underline-offer"></div>
+                        <p class="p-offer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quia!</p>
+                        <p class="price">1500 pln</p>
+                        <button class="buy">zamów</button>
+                    </div>
+                </div>
+                <div class="box-general offer-3">
+                    <div class="offer-3-active">
+                        <h2 class="h2-offer">usa</h2>
+                        <div class="underline-offer"></div>
+                        <p class="p-offer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quia!</p>
+                        <p class="price">2000 pln</p>
+                        <button class="buy">zamów</button>
+                    </div>
+                </div>
+             
+                <div class="box-general offer-4">
+                    <div class="offer-4-active">
+                        <h2 class="h2-offer">szkocja</h2>
+                        <div class="underline-offer"></div>
+                        <p class="p-offer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quia!</p>
+                        <p class="price">1300 pln</p>
+                        <button class="buy">zamów</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="text-contact">
+                <h1 class="txt-contact-h1 hide animate__animated">kontakt</h1>
+                <div class="underline"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, fuga.</p>
+                <div class="info-contact">
+                    <i class="fas fa-mobile-alt"></i>
+                    <p class="telephone icon-hover">+48 555 555 555</p>
+                    <i class="fas fa-home"></i>
+                    <p class="adress icon-hover">Warszawa, ul. Lorem Ipsum 1</p>
+                    <i class="fas fa-paper-plane"></i>
+                    <p class="mail icon-hover">m.lena.bienkowska@gmail.com</p>
+                </div>
+            </div>
+            <div class="bg-contact">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="text-footer">projekt & kodowanie eM Be 2021r.</div>
+    </footer>
+<script src="main.js"></script>
+</body>
+
+</html>
+
+

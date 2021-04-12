@@ -1,0 +1,179 @@
+.nav-desktop img {
+  width: 12%;
+}
+
+.baloon-1 {
+  display: block;
+  position: absolute;
+  margin: 18rem 0 0 83rem;
+  width: 7%;
+  height: 15%;
+  background-image: url("../img/baloon.png");
+  background-repeat: no-repeat;
+  -webkit-animation: fly 9s ease-out;
+          animation: fly 9s ease-out;
+}
+
+.baloon-2 {
+  display: block;
+  position: absolute;
+  margin: 12rem 0 0 127rem;
+  width: 15%;
+  height: 20%;
+  background-image: url(../img/baloon-2.png);
+  background-repeat: no-repeat;
+  -webkit-animation: fly 9s ease-in;
+          animation: fly 9s ease-in;
+}
+
+.text-container {
+  padding: 23rem 0 0 10rem;
+}
+
+.text-container h1 {
+  font-size: 13.5rem;
+}
+
+.text-container p {
+  padding: 6rem 0;
+  font-size: 4.5rem;
+  line-height: 7rem;
+}
+
+.text-container button {
+  width: 30rem;
+  height: 8.5rem;
+  font-size: 2.7rem;
+}
+
+.text-aboutus {
+  padding: 12% 8%;
+}
+
+.text-aboutus h1 {
+  font-size: 8rem;
+}
+
+.text-aboutus .underline {
+  margin-top: 4%;
+  width: 30%;
+}
+
+.text-aboutus p {
+  padding: 11% 0;
+  font-size: 3rem;
+}
+
+.text-aboutus button {
+  width: 33rem;
+  height: 8.5rem;
+  font-size: 2.7rem;
+}
+
+.text-aboutus .photo-aboutus {
+  width: 40%;
+}
+
+.text-lastminute h1 {
+  padding: 3% 0;
+  font-size: 8rem;
+}
+
+.text-lastminute .underline {
+  margin: 3% auto;
+}
+
+.text-lastminute p {
+  padding: 3%;
+  font-size: 3rem;
+}
+
+.btn-contact {
+  width: 33rem;
+  height: 8.5rem;
+  font-size: 2.7rem;
+}
+
+.h2-offer {
+  font-size: 500%;
+}
+
+.underline-offer {
+  margin-top: 44%;
+}
+
+.p-offer {
+  padding: 60% 0;
+}
+
+.price {
+  top: 55%;
+  font-size: 600%;
+}
+
+.buy {
+  width: 25rem;
+  height: 8.5rem;
+  font-size: 2.7rem;
+}
+
+.offers-general {
+  margin: 5% 2%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.offers-general .box-general {
+  width: 23%;
+  margin-right: 2%;
+}
+
+#contact {
+  height: 60rem;
+}
+
+.text-contact h1 {
+  font-size: 8rem;
+}
+
+.text-contact p {
+  padding: 2% 0% 4% 0%;
+  font-size: 3rem;
+}
+
+.info-contact p {
+  padding: 2rem;
+  font-size: 2.5rem;
+}
+
+.info-contact .fas {
+  font-size: 5rem;
+}
+
+.info-contact .fa-mobile-alt {
+  margin-right: -6rem;
+}
+
+@-webkit-keyframes fly {
+  0% {
+    -webkit-transform: translateY(70rem);
+            transform: translateY(70rem);
+  }
+  100% {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+  }
+}
+
+@keyframes fly {
+  0% {
+    -webkit-transform: translateY(70rem);
+            transform: translateY(70rem);
+  }
+  100% {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+  }
+}
+/*# sourceMappingURL=x-large.css.map */
