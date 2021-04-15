@@ -97,20 +97,20 @@
 }
 
 .btn-contact {
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 .underline-offer {
-  margin-top: 35%;
+  margin-top: 45%;
 }
 
 .p-offer {
-  padding: 45% 0;
+  padding: 55% 0;
 }
 
 .price {
   top: 55%;
-  font-size: 700%;
+  font-size: 500%;
 }
 
 .offers-general {
@@ -118,8 +118,8 @@
 }
 
 .offers-general .box-general {
-  width: 40vw;
-  margin-right: 2%;
+  width: 27vw;
+  margin-right: 3%;
 }
 
 .offers-general .offer-1 {
