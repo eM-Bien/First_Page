@@ -49,5 +49,33 @@ window.addEventListener('scroll', function(){
     }
 });
 
-// LAST
+// CHANGE BUTTON BUY TEXT
+
+const btn = document.querySelector('.change-1');
+
+btn.addEventListener('click', function(){
+    console.log(btn.outerHTML);
+    btn.outerHTML = '<h1 style="padding: 4rem">Kupione!</h1>';
+});
+
+const btn2 = document.querySelector('.change-2');
+
+btn2.addEventListener('click', function(){
+    console.log(btn2.outerHTML);
+    btn2.outerHTML = '<h1 style="padding: 4rem">Kupione!</h1>';
+});
+
+const btn3 = document.querySelector('.change-3');
+
+btn3.addEventListener('click', function(){
+    console.log(btn3.outerHTML);
+    btn3.outerHTML = '<h1 style="padding: 4rem">Kupione!</h1>';
+});
+
+const btn4 = document.querySelector('.change-4');
+
+btn4.addEventListener('click', function(){
+    console.log(btn4.outerHTML);
+    btn4.outerHTML = '<h1 style="padding: 4rem">Kupione!</h1>';
+});
 
