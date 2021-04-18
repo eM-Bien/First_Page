@@ -123,7 +123,7 @@
 }
 
 .offers-general .offer-1 {
-  background-image: url("../img/offer-1.jpg");
+  background-image: url("../img/offer-1-big.jpg");
   -webkit-transition: rotate, .5s;
   transition: rotate, .5s;
 }
@@ -138,7 +138,7 @@
 }
 
 .offers-general .offer-2 {
-  background-image: url("../img/offer-2.jpg");
+  background-image: url("../img/offer-2-big.jpg");
   -webkit-transition: rotate, .5s;
   transition: rotate, .5s;
 }
@@ -153,7 +153,7 @@
 }
 
 .offers-general .offer-3 {
-  background-image: url("../img/offer-3.jpg");
+  background-image: url("../img/offer-3-big.jpg");
   -webkit-transition: rotate, .5s;
   transition: rotate, .5s;
 }
@@ -168,7 +168,7 @@
 }
 
 .offers-general .offer-4 {
-  background-image: url("../img/offer-4.jpg");
+  background-image: url("../img/offer-4-big.jpg");
   -webkit-transition: rotate, .5s;
   transition: rotate, .5s;
 }
@@ -225,9 +225,9 @@
   display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -239,8 +239,13 @@
   font-size: 1.5rem;
 }
 
+.info-contact .fas {
+  display: flex-start;
+  margin: 0 2rem;
+}
+
 .info-contact .fa-mobile-alt {
-  margin-right: -3rem;
+  margin-right: -1rem;
   z-index: 2;
 }
 
