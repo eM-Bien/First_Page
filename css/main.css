@@ -262,10 +262,11 @@ nav {
 .text-aboutus h1 {
   display: block;
   font-size: 3rem;
+  visibility: visible;
 }
 
 .text-aboutus .hide {
-  color: black;
+  visibility: hidden;
 }
 
 .text-aboutus .underline {
@@ -316,10 +317,11 @@ nav {
   display: block;
   font-size: 3rem;
   color: #333;
+  visibility: visible;
 }
 
 .text-lastminute .hide {
-  color: white;
+  visibility: hidden;
 }
 
 .text-lastminute .underline {
@@ -416,10 +418,11 @@ nav {
   display: block;
   padding: 5rem 0 0 0;
   font-size: 3rem;
+  visibility: visible;
 }
 
 .text-contact .hide {
-  color: #0B94E4;
+  visibility: hidden;
 }
 
 .text-contact .underline {
